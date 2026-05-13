@@ -1,0 +1,7 @@
+<odoo>
+    <template id="assets_backend_ai_budget" name="AI Budget Backend Assets" inherit_id="web.assets_backend" priority="16">
+        <xpath expr="." position="inside">
+            <script type="module" src="/ai_budget_master/static/src/js/chat_enter.js"></script>
+        </xpath>
+    </template>
+</odoo>
